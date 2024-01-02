@@ -1,0 +1,135 @@
+@import url(resert.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+  
+}
+header, section, footer{
+    border: 1px solid #33A8DB80;
+}
+h2, button{
+    color: #33A8DB;
+    font-family: 'Raleway', sans-serif; ;
+    margin: 30px auto;
+    font-size: 2rem;
+}
+h1{
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    font-size: 900;
+    font-size: 2.5rem;
+}
+header, .conteudo-curso{
+    max-width: 1440px;
+    height: 550px;
+    
+}
+header{
+
+    background-image:linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    border: 1px solid #33A8DB80;
+}
+.banner-content{
+    max-width: 100%;
+    height: inherit;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    
+}
+.logo > img{
+    margin-top: 30px;
+    width: 180px;
+    height: 150px;
+    
+}
+header .logo{
+    width: 220px;
+    height: 220px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.banner-content> h1, .banner-content> p, .banner-content> button{
+    margin: 15px;
+}
+button{
+    padding: 15px 30px;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    border: 2px solid #33A8DB80;
+    
+}
+button:hover{
+    background-color: #33A8DB;
+    color: #252525;
+    text-decoration: underline;
+    
+}
+main{
+    text-align: center;
+}
+.conteudo-curso{
+    padding: 50px;
+    max-height: 100%;
+    
+    
+}
+.modulo-list{
+    margin: 30px auto;
+    box-sizing: border-box;
+    
+}
+.modulo{
+    max-width: 500px;
+    padding: 16px;
+    background-color: #252525;
+    margin: 20px auto;
+    border-radius: 100px;
+    border: 1px solid #33A8DB;
+    box-shadow: inset -5px 5px 5px rgba(0, 0, 0, 0.658);
+    font-weight: 500;
+}
+span{
+    color: #1472B7;
+}
+.conteudo-curso{
+    height: 400px;
+}
+.tranfor-mundo{
+    background-image: url(img/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: left;
+    font-size: 2.4rem;
+    max-width: 100%;
+}
+.tranfor-mundo  p{
+    padding: 150px ;
+    font-size: 900;
+    text-shadow: 3px 2px #33A8DB;
+    
+}
+.profissional > p{
+    padding: 30px;
+    font-weight: lighter;
+}
+.img-evolua{
+    max-width: 100%;
+}
+footer{
+    text-align: center;
+    padding: 40px;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+}
+footer a{
+    color: #1472B7;
+    text-decoration: none;
+}
